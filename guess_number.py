@@ -6,9 +6,9 @@ while True:
     if ch_1 < zag:
         print('Ваше число меньше того, что загадано')
         
-    if ch_1 > zag:
+    elif ch_1 > zag:
         print('Ваше число больше того, что загадано')
         
-    if ch_1 == zag:
+    elif ch_1 == zag:
         print('Отличная интуиция! Вы угадали число :)')
         break
